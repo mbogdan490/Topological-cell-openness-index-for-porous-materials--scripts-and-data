@@ -1,0 +1,22 @@
+Pearson correlations: tau Betti observables vs permeability
+n = 11 DRP-317 samples
+Permeability in mD (Neumann Table 1 / permeability.csv)
+R² = r² (coefficient of determination for simple linear Pearson fit)
+Filtration levels: integer t = -50, …, 0 (discrete sum)
+Plot x-axis: log10(permeability) with log scale; annotations use log10(permeability)
+
+Observables
+
+vs permeability (mD, linear)
+observable                                            r          p         R²
+----------------------------------------------------------------------------
+Σ τ(t) over t = -50…0                           +0.7443    0.00861      0.554
+
+Σ (−t)·τ(t) over t = -50…0                      +0.9129  8.737e-05     0.8335
+
+vs log10(permeability)
+observable                                            r          p         R²
+----------------------------------------------------------------------------
+Σ τ(t) over t = -50…0                           +0.8051   0.002794     0.6481
+
+Σ (−t)·τ(t) over t = -50…0                      +0.8101     0.0025     0.6563

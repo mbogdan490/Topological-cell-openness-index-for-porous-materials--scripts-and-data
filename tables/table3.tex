@@ -1,0 +1,16 @@
+\begin{table}[ht]
+\centering
+\caption{Linear regressions (intercept fixed to $0$) between Betti-curve-derived predictors and geometric targets on the closed-cells dataset.}
+\label{tab:exp3_regressions}
+\begin{tabular}{llllr}
+\hline
+\textbf{target} & \textbf{predictor} & \textbf{slope} & \textbf{$R^2$} & \textbf{$n_{\mathrm{samples}}$} \\
+\hline
+$r$ & $-\arg\max_t \nabla \beta_0(t)$ & $0.985$ & $0.672$ & 100 \\
+$d/2$ & $\arg\min_t \nabla \beta_0(t)$ & $0.838$ & $0.893$ & 100 \\
+$d/2$ & $\arg\max_t \nabla \beta_1(t)$ & $1.172$ & $0.928$ & 100 \\
+$d/2$ & $\frac{1}{2}\!\left(\arg\min_t \nabla \beta_0(t)+\arg\max_t \nabla \beta_1(t)\right)$ & $1.005$ & $0.953$ & 100 \\
+$h/2$ & $\arg\min_t \nabla \beta_1(t)$ & $1.103$ & $0.859$ & 100 \\
+\hline
+\end{tabular}
+\end{table}
